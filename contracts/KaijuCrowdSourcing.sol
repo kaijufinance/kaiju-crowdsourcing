@@ -42,7 +42,7 @@ contract KaijuCrowdSourcing is UniswapPriceFeed, Ownable, ReentrancyGuard
      event WithdrawEthereumEvent(address indexed withdrawer, uint256 amount, uint256 timestamp);
      event SubmittedFundRequestEvent(address indexed submitter, uint256 indexed submittedFundRequestIndex, uint256 timestamp);
      event SubmittedTokenFundRequestEvent(address indexed submitter, address indexed tokenAddress, uint256 indexed submittedFundRequestIndex, uint256 timestamp);
-     event UpdatedEthToRewardTokenRate(address indexed updater, uint256 newRate, uint256 timestamp);
+     event UpdatedEthToRewardTokenRateEvent(address indexed updater, uint256 newRate, uint256 timestamp);
 
      constructor(
         address rewardTokenAdress, 
@@ -179,8 +179,6 @@ contract KaijuCrowdSourcing is UniswapPriceFeed, Ownable, ReentrancyGuard
      {
          _ethToTokenRate = newRate;
 
-         emit UpdatedEthToRewardTokenRate(msg.sender, newRate, block.timestamp);
+         emit UpdatedEthToRewardTokenRateEvent(msg.sender, newRate, block.timestamp);
      }
-
-     
 }

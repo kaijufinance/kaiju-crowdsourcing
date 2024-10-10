@@ -1,4 +1,4 @@
-# Kaiju Crowd Sourcing :moneybag: :couple: :credit_card:
+# Kaiju Crowd Sourcing :moneybag:
 
 ## Description :page_with_curl:
 

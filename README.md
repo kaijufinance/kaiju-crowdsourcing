@@ -25,7 +25,7 @@ Deployers Address: TBC.
 
 | Contract      | Address       | Network       |
 | ------------- | ------------- | ------------- |
-| Crowd Sourcing Token | [TBC.](https://sepolia.etherscan.io/address/TBC.#code)     | Sepolia       | 
+| Crowd Sourcing Token | [Token](https://sepolia.etherscan.io/address/0x45c03664ad5385179f876bab0d7ddce90b32a8e5#code)     | Sepolia       | 
 | Crowd Sourcing Contract | [TBC.](https://sepolia.etherscan.io/address/TBC.#code)     | Sepolia       | 
 
 ## Deploy Steps :shipit:
